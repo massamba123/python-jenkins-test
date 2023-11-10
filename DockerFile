@@ -1,0 +1,6 @@
+# Utiliser une image de base Ubuntu
+FROM ubuntu:20.04
+
+# Mettre à jour le gestionnaire de paquets et installer Python 3
+RUN apt-get update && \
+    apt-get install -y python3
